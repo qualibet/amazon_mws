@@ -1,0 +1,8 @@
+{
+  "name": "qualibet/amazon_mws",
+  "description": "qualibet",
+  "type": "project",
+  "require": {
+    "php": ">=7.0"
+  }
+}
