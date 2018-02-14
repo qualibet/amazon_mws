@@ -9,18 +9,19 @@
     "name": "Amazon.com, Inc.",
     "homepage": "https://developer.amazonservices.de/"
   }],
+  "include-path": ["src/"],
   "autoload": {
     "psr-0": {
-      "FBAInboundServiceMWS": "FulfillmentInboundShipment/src/FBAInboundServiceMWS/",
-      "FBAInventoryServiceMWS": "FulfillmentInventory/src/FBAInventoryServiceMWS/",
-      "FBAOutboundServiceMWS": "FulfillmentOutboundShipment/src/FBAOutboundServiceMWS/",
-      "MarketplaceWebService": "Reports/src/MarketplaceWebService/",
-      "MarketplaceWebServiceOrders": "Orders/src/MarketplaceWebServiceOrders/",
-      "MarketplaceWebServiceProducts": "Products/src/MarketplaceWebServiceProducts/",
-      "MarketplaceWebServiceSellers": "Sellers/src/MarketplaceWebServiceSellers/",
-      "MWSFinancesService": "Finances/src/MWSFinancesService/",
-      "MWSMerchantFulfillmentService": "MerchantFulfillment/src/MWSMerchantFulfillmentService/",
-      "MWSRecommendationsSectionService": "Recommendations/src/MWSRecommendationsSectionService/"
+      "FBAInboundServiceMWS": "src/",
+      "FBAInventoryServiceMWS": "src/",
+      "FBAOutboundServiceMWS": "src/",
+      "MarketplaceWebService": "src/",
+      "MarketplaceWebServiceOrders": "src/",
+      "MarketplaceWebServiceProducts": "src/",
+      "MarketplaceWebServiceSellers": "src/",
+      "MWSFinancesService": "src/",
+      "MWSMerchantFulfillmentService": "src/",
+      "MWSRecommendationsSectionService": "src/"
     }
   }
 }
