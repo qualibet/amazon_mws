@@ -1,8 +1,26 @@
 {
   "name": "qualibet/amazon_mws",
-  "description": "qualibet",
+  "description": "Amazon Marketplace Web Service libraries",
   "type": "project",
   "require": {
     "php": ">=7.0"
+  },
+  "authors": [{
+    "name": "Amazon.com, Inc.",
+    "homepage": "https://developer.amazonservices.de/"
+  }],
+  "autoload": {
+    "psr-0": {
+      "FBAInboundServiceMWS": "FulfillmentInboundShipment/src/FBAInboundServiceMWS/",
+      "FBAInventoryServiceMWS": "FulfillmentInventory/src/FBAInventoryServiceMWS/",
+      "FBAOutboundServiceMWS": "FulfillmentOutboundShipment/src/FBAOutboundServiceMWS/",
+      "MarketplaceWebService": "Reports/src/MarketplaceWebService/",
+      "MarketplaceWebServiceOrders": "Orders/src/MarketplaceWebServiceOrders/",
+      "MarketplaceWebServiceProducts": "Products/src/MarketplaceWebServiceProducts/",
+      "MarketplaceWebServiceSellers": "Sellers/src/MarketplaceWebServiceSellers/",
+      "MWSFinancesService": "Finances/src/MWSFinancesService/",
+      "MWSMerchantFulfillmentService": "MerchantFulfillment/src/MWSMerchantFulfillmentService/",
+      "MWSRecommendationsSectionService": "Recommendations/src/MWSRecommendationsSectionService/"
+    }
   }
 }
