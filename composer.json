@@ -23,5 +23,6 @@
       "MWSMerchantFulfillmentService": "src/",
       "MWSRecommendationsSectionService": "src/"
     }
-  }
+  },
+  "version": "1.0.1"
 }
